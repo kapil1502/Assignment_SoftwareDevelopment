@@ -10,7 +10,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 const corsOptions = {
-  origin: ['http://localhost:3000', 'http://localhost:3002'],
   methods: ['GET', 'PUT'],
   allowedHeaders: ['Content-Type'],
   credentials: true,
